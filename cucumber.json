@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9205441978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Contact Us Action",
+        "description": "",
+        "id": "shopping-cart-on-an-e-commerce-website;contact-us-action",
+        "after": [
+          {
+            "result": {
+              "duration": 2278141177,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10203729379,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I open automationpractice website",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.i_open_automationpractice_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9170548403,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform contact us actions",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.I_perform_contact_us_actions()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@runThis"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping cart on an e-commerce website",
+    "description": "",
+    "id": "shopping-cart-on-an-e-commerce-website",
+    "keyword": "Feature",
+    "uri": "features/SigninSignoutContactUs.feature"
+  }
+]
